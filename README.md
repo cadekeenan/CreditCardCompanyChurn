@@ -53,7 +53,7 @@ Precision Recall Curve (Gradient Boosting) - (CCChurn6.png)
 
 AUC of different models tested - (CCChurn7.png)
 
-
+SEE FEATURE IMPORTANCE FOR IMPORTANCE OF FEATURES IN OUR MODEL (CCChurn8.png)
 ## Acknowledgements
 - Many thanks to our BAIS educators to assist us in any of our technical problems throughout the development of this model.
 
