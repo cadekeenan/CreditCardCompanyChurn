@@ -37,7 +37,7 @@ Categoric Features: 6. Key examples - Income Category, Card Category, Gender, Ed
 
 Numeric Features: 16. Key Examples - Total Revolving Balance,Total Transactions, Average Utilization Ratio, Age, Total Product Count (how many credit cards they have open with the company), Credit Limit 
 
-We used all classification models such as gradient boosting, Ada boost, Logistic regression, random forest, and SVM. We did cross-validation with all models with random seeds 42, 294290, and 990998. We chose the best model by looking at the ROC curve and AUC and the lowest error provided by the error matrix. We also looked at the Precision-Recall curve because since our data was highly unbalanced, the AUC could be misleading. The best model was a gradient boosting model with an AUC of .9911 and an average error rate of 7.6%.  This model was also the best on the precision-recall curve.  
+We used all classification models such as gradient boosting, Ada boost, Logistic regression, random forest, and SVM. We did cross-validation with all models with random seeds. We chose the best model by looking at the ROC curve and AUC and the lowest error provided by the error matrix. We also looked at the Precision-Recall curve because since our data was highly unbalanced, the AUC could be misleading. The best model was a gradient boosting model with an AUC of .9911 and an average error rate of 7.6%.  This model was also the best on the precision-recall curve.  
 Error Matrix - (CCChurn9.png)
 
 Target Variable: Attritted: We have only 16.07% of customers who have churned, which creates a highly unbalanced dataset. 
