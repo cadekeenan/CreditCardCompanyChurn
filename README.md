@@ -1,4 +1,4 @@
-# Data Mining Churn Rate Project
+# Credit Card Company Churn Project
 This is a supervised machine learning classification project where we used predictive modeling to analyzed a credit card companies data to build a model that predicts customer churn and give suggestions to reduce churn. 
 ## Table of Contents
 * [General Info](#general-information)
